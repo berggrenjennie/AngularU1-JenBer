@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: salmon;
+  align-items: center;
+  justify-content: center;
+  margin: 60px;
+  padding: 30px;
+  width: 1000px;
+
+}
+
+.container>div {
+  background-color: salmon;
+  width: 500px;
+  margin: 10px;
+  text-align: center;
+  font-size: 25px;
+}

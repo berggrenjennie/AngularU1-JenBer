@@ -1,0 +1,12 @@
+
+<!-- Template! 'Föräldern' till 'barnen' user-list.component och edit-users.component
+[users]-skickar information till user-list och (addUser)+(removeUser) tar emot
+information från edit-users -->
+<div class="container">
+  <div class="">
+    <app-user-list [users]="userList"></app-user-list>
+  </div>
+  <div >
+    <app-edit-users (addUser) = "addUserName($event)" (removeUser) = "removeUserName($event)"></app-edit-users>
+  </div>
+</div>
