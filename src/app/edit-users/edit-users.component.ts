@@ -10,6 +10,8 @@ export class EditUsersComponent implements OnInit {
 @Output()addUser = new EventEmitter<string>();
 @Output()removeUser = new EventEmitter<string>();
 
+namn:string;
+
   constructor() {
   }
 
